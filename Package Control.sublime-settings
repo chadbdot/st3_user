@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"GitSavvy",
+		"MagicPython",
+		"Package Control",
+		"PackageResourceViewer",
+		"R-Box",
+		"SendCode",
+		"SublimeLinter",
+		"SublimeLinter-contrib-lintr",
+		"SublimeLinter-pycodestyle",
+		"SublimeLinter-pyflakes",
+		"TerminalView",
+		"Theme - Soda",
+		"WordCount"
+	]
+}

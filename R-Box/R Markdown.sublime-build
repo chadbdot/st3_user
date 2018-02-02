@@ -1,0 +1,6 @@
+{
+    "selector": "text.html.markdown.rmarkdown",
+    "working_dir": "${project_path:${folder}}",
+    "cmd": [ "Rscript -e \"rmarkdown::render('$file', encoding = 'UTF-8', output_format='all')\"" ],
+    "shell": true
+}

@@ -1,0 +1,13 @@
+{
+	"prog": "iterm",
+	"python":
+	{
+		"bracketed_paste_mode": true,
+		"prog": "terminalview"
+	},
+	"r":
+	{
+		"bracketed_paste_mode": true,
+		"prog": "terminalview"
+	}
+}

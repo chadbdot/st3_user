@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+---
+author: "${1:$TM_FULLNAME}"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+title: "${2:R Markdown Project}"
+output: html_notebook
+---
+
+$3
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rmdhead</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.markdown.rmarkdown</scope>
+    <description>Insert R Markdown Header </description>
+</snippet>
