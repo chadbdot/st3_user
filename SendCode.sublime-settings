@@ -1,5 +1,5 @@
 {
-	"prog": "iterm",
+	"prog": "terminalview",
 	"python":
 	{
 		"bracketed_paste_mode": true,

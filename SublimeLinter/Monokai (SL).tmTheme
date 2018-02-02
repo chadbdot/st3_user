@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai Custom</string>
+	<string>Monokai</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1A1A1A</string>
+				<string>#272822</string>
 				<key>caret</key>
-				<string>#F5F5F5</string>
+				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#F5F5F5</string>
+				<string>#F8F8F2</string>
 				<key>invisibles</key>
-				<string>#404040</string>
+				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#303030</string>
+				<string>#3E3D32</string>
 				<key>selection</key>
-				<string>#707070CC</string>
+				<string>#49483E</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
@@ -51,7 +51,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A1A1A1</string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -62,7 +62,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A1E836</string>
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -76,6 +76,7 @@
 				<string>#AE81FF</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -189,7 +190,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic </string>
+				<string>italic underline</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -201,6 +202,8 @@
 			<string>variable.parameter - (source.c | source.c++ | source.objc | source.objc++)</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#FD971F</string>
 			</dict>
@@ -212,6 +215,8 @@
 			<string>variable.language</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#FD971F</string>
 			</dict>
@@ -355,6 +360,7 @@
 				<string>#F8F8F2</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>diff.header</string>
@@ -363,7 +369,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#757575</string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -451,7 +457,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#757575</string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -462,7 +468,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#757575</string>
+				<string>#75715E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -495,7 +501,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#DBDBDB0A</string>
+				<string>#F8F8F818</string>
 			</dict>
 		</dict>
 		<dict>
@@ -571,6 +577,7 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>scope</key>
 			<string>message.error</string>
@@ -611,9 +618,5 @@
                 <string>#DDB700</string>
             </dict>
         </dict></array>
-	<key>colorSpaceName</key>
-	<string>sRGB</string>
-	<key>semanticClass</key>
-	<string>theme.dark.monokai_custom</string>
 </dict>
 </plist>
