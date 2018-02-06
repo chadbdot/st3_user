@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AutoWrap",
 		"BracketHighlighter",
 		"GitSavvy",
 		"MagicPython",
@@ -12,12 +13,14 @@
 		"PackageResourceViewer",
 		"R-Box",
 		"SendCode",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-lintr",
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
 		"TerminalView",
 		"Theme - Soda",
-		"WordCount"
+		"WordCount",
+		"Wrap Plus"
 	]
 }

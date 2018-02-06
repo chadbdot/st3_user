@@ -5,13 +5,13 @@
 
 			//application 1
 			{
-				"caption": "Photoshop",
-				"id": "side-bar-files-open-with-photoshop",
+				"caption": "Preview",
+				"id": "side-bar-files-open-with-preview",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "Adobe Photoshop CS5.app", // OSX
+									"application": "Preview.app", // OSX
 									"extensions":"psd|png|jpg|jpeg",  //any file with these extensions
 									"args":[]
 								},
@@ -23,13 +23,13 @@
 
 			//application 2
 			{
-				"caption": "Preview",
-				"id": "side-bar-files-open-with-preview",
+				"caption": "PDF Expert",
+				"id": "side-bar-files-open-with-pdf_expert",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "Skim.app", // OSX
+									"application": "PDF Expert.app", // OSX
 									"extensions":"pdf", //open all even folders
 									"args":[]
 								},
@@ -51,17 +51,31 @@
 			},
 			//application n
 			{
-				"caption": "Chrome",
-				"id": "side-bar-files-open-with-chrome",
+				"caption": "R",
+				"id": "side-bar-files-open-with-r",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "C:\\Documents and Settings\\tito\\local\\Datos de programa\\Google\\Chrome\\Application\\chrome.exe",
-									"extensions":".*", //any file with extension
+									"application": "",
+									"extensions":"RData", //any file with extension
 									"args":[]
 						},
-				"open_automatically" : false // will close the view/tab and launch the application
+				"open_automatically" : true // will close the view/tab and launch the application
+			},
+			//application n
+			{
+				"caption": "Firefox",
+				"id": "side-bar-files-open-with-firefox",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Firefox.app",
+									"extensions":".html", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : true // will close the view/tab and launch the application
 			},
 
 			{"caption":"-"}

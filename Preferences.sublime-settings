@@ -28,11 +28,12 @@
 		"packrat/src/**"
 	],
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Custom (SL).tmTheme",
+	"color_scheme": "Packages/User/Colors/Wombat Custom.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		"*.cache",
 		".DS_Store",
 		"*.sublime-workspace",
 		"*.sublime-project",
@@ -43,6 +44,7 @@
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
+		"*.cache",
 		".git",
 		"__pycache__",
 		"env",
@@ -62,6 +64,10 @@
 		"Python",
 		"Vintage"
 	],
+	"mdpopups.sublime_user_lang_map":
+	{
+	},
+	"mdpopups.use_sublime_highlighter": true,
 	"rulers":
 	[
 		80
@@ -69,8 +75,10 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"show_minimap": true,
+	"spell_check" : true,
+	"spelling_selector" : "-git-savvy",
 	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"wide_caret": true,
