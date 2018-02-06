@@ -13,7 +13,7 @@
 		80
 	],
 	"spell_check" : true,
-	"spelling_selector" : "-markup.raw.inline.markdown, -source.r, source.r comment.line.number-sign.r",
+	"spelling_selector" : "-(source), comment.line.number-sign, string.quoted.double",
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
