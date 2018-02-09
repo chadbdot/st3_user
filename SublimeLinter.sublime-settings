@@ -34,6 +34,19 @@
                 "cache": "TRUE",
                 "excludes": [],
                 "linters": "with_defaults(camel_case_linter = NULL,snake_case_linter = NULL, line_length_linter(80), trailing_blank_lines_linter = NULL,trailing_whitespace_linter = NULL, commented_code_linter = NULL)"
+            },
+            "pycodestyle": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore": "",
+                "max-line-length": null,
+                "select": ""
+            },
+            "pyflakes": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             }
         },
         "mark_style": "outline",

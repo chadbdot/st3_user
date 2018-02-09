@@ -1,6 +1,17 @@
 {
     "selector": "text.html.markdown.rmarkdown",
-    "working_dir": "${project_path:${folder}}",
+    "working_dir": "$folder",
     "cmd": [ "Rscript -e \"rmarkdown::render('$file', encoding = 'UTF-8', output_format='all')\"" ],
-    "shell": true
+    "shell": true,
+    "variants": [
+        {
+        "name": "Set WD to File Path",
+        "working_dir": "$file_path",
+        "cmd": [ "Rscript -e \"rmarkdown::render('$file', encoding = 'UTF-8', output_format='all')\"" ]
+        },
+        {
+        "name": "Output to Output folder",
+        "cmd": [ "Rscript -e \"rmarkdown::render('$file', encoding = 'UTF-8', output_format='all', output_dir='output')\"" ]
+        }
+    ]
 }

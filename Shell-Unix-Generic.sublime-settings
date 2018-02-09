@@ -1,8 +1,8 @@
 {
-	"extensions":
-	[
-		".zshrc",
-		".zpreztorc",
-		"zpreztorc"
-	]
+    "extensions":
+    [
+        ".zshrc",
+        ".zpreztorc",
+        "zpreztorc"
+    ]
 }

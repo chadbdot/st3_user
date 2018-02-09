@@ -1,9 +1,10 @@
+# Cache files and folders
 *.cache
 
+# Package Control 
 /Package Control.last-run
-
 /Package Control.user-ca-bundle
-
 /Package Control.merged-ca-bundle
 
+# Sublime Linter-generated theme files
 /SublimeLinter/

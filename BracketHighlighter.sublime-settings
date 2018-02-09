@@ -1,5 +1,5 @@
 {
-	// Examples: (keyword|string|number)
+    // Examples: (keyword|string|number)
     "quote_scope" : "keyword.name.class",
     "curly_scope" : "keyword.name.class",
     "round_scope" : "keyword.name.class",
@@ -7,7 +7,7 @@
     "angle_scope" : "keyword.name.class",
     "tag_scope"   : "keyword.name.class",
 
-	// Outline? (solid|outline|underline|none)
+    // Outline? (solid|outline|underline|none)
     "quote_style" : "solid",
     "curly_style" : "outline",
     "round_style" : "outline",

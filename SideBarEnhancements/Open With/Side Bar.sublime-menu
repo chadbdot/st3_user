@@ -1,84 +1,84 @@
 [
-	{"id": "side-bar-files-open-with",
-		"children":
-		[
+    {"id": "side-bar-files-open-with",
+        "children":
+        [
 
-			//application 1
-			{
-				"caption": "Preview",
-				"id": "side-bar-files-open-with-preview",
+            //application 1
+            {
+                "caption": "Preview",
+                "id": "side-bar-files-open-with-preview",
 
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "Preview.app", // OSX
-									"extensions":"psd|png|jpg|jpeg",  //any file with these extensions
-									"args":[]
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "Preview.app", // OSX
+                                    "extensions":"psd|png|jpg|jpeg",  //any file with these extensions
+                                    "args":[]
+                                },
+                "open_automatically" : false // will close the view/tab and launch the application
+            },
 
-			//separator
-			{"caption":"-"},
+            //separator
+            {"caption":"-"},
 
-			//application 2
-			{
-				"caption": "PDF Expert",
-				"id": "side-bar-files-open-with-pdf_expert",
+            //application 2
+            {
+                "caption": "PDF Expert",
+                "id": "side-bar-files-open-with-pdf_expert",
 
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "PDF Expert.app", // OSX
-									"extensions":"pdf", //open all even folders
-									"args":[]
-								},
-				"open_automatically" : true // will close the view/tab and launch the application
-			},
-			//application 3
-			{
-				"caption": "Microsoft Word",
-				"id": "side-bar-files-open-with-word",
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "PDF Expert.app", // OSX
+                                    "extensions":"pdf", //open all even folders
+                                    "args":[]
+                                },
+                "open_automatically" : true // will close the view/tab and launch the application
+            },
+            //application 3
+            {
+                "caption": "Microsoft Word",
+                "id": "side-bar-files-open-with-word",
 
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "Microsoft Word.app", // OSX
-									"extensions":"doc|docx", //open all even folders
-									"args":[]
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
-			//application n
-			{
-				"caption": "R",
-				"id": "side-bar-files-open-with-r",
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "Microsoft Word.app", // OSX
+                                    "extensions":"doc|docx", //open all even folders
+                                    "args":[]
+                                },
+                "open_automatically" : false // will close the view/tab and launch the application
+            },
+            //application n
+            {
+                "caption": "R",
+                "id": "side-bar-files-open-with-r",
 
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "",
-									"extensions":"RData", //any file with extension
-									"args":[]
-						},
-				"open_automatically" : true // will close the view/tab and launch the application
-			},
-			//application n
-			{
-				"caption": "Firefox",
-				"id": "side-bar-files-open-with-firefox",
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "",
+                                    "extensions":"RData", //any file with extension
+                                    "args":[]
+                        },
+                "open_automatically" : true // will close the view/tab and launch the application
+            },
+            //application n
+            {
+                "caption": "Firefox",
+                "id": "side-bar-files-open-with-firefox",
 
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "Firefox.app",
-									"extensions":".html", //any file with extension
-									"args":[]
-						},
-				"open_automatically" : true // will close the view/tab and launch the application
-			},
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "Firefox.app",
+                                    "extensions":".html", //any file with extension
+                                    "args":[]
+                        },
+                "open_automatically" : true // will close the view/tab and launch the application
+            },
 
-			{"caption":"-"}
-		]
-	}
+            {"caption":"-"}
+        ]
+    }
 ]

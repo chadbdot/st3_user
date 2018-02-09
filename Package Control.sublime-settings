@@ -1,26 +1,27 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"AutoWrap",
-		"BracketHighlighter",
-		"GitSavvy",
-		"MagicPython",
-		"Package Control",
-		"PackageResourceViewer",
-		"R-Box",
-		"SendCode",
-		"SideBarEnhancements",
-		"SublimeLinter",
-		"SublimeLinter-contrib-lintr",
-		"SublimeLinter-pycodestyle",
-		"SublimeLinter-pyflakes",
-		"TerminalView",
-		"Theme - Soda",
-		"WordCount",
-		"Wrap Plus"
-	]
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "AutoWrap",
+        "BracketHighlighter",
+        "GitSavvy",
+        "MagicPython",
+        "Package Control",
+        "PackageResourceViewer",
+        "ProjectManager",
+        "R-Box",
+        "SendCode",
+        "SideBarEnhancements",
+        "SublimeLinter",
+        "SublimeLinter-contrib-lintr",
+        "SublimeLinter-pycodestyle",
+        "SublimeLinter-pyflakes",
+        "TerminalView",
+        "Theme - Soda",
+        "WordCount",
+        "Wrap Plus"
+    ]
 }
