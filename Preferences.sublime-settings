@@ -1,86 +1,87 @@
 {
-    "added_words":
-    [
-        "tradeoffs",
-        "tradeoff",
-        "Borkenhagen"
-    ],
-    "auto_complete": true,
-    "auto_find_in_selection": true,
-    "binary_file_patterns":
-    [
-        "*.jpg",
-        "*.jpeg",
-        "*.png",
-        "*.gif",
-        "*.ttf",
-        "*.tga",
-        "*.dds",
-        "*.ico",
-        "*.eot",
-        "*.pdf",
-        "*.swf",
-        "*.jar",
-        "*.zip",
-        "packrat/lib/**",
-        "packrat/lib-ext/**",
-        "packrat/lib-R/**",
-        "packrat/src/**"
-    ],
-    "caret_style": "solid",
-    "close_windows_when_empty": true,
-    "color_scheme": "Packages/User/Colors/Wombat Custom.tmTheme",
-    "draw_white_space": "all",
-    "ensure_newline_at_eof_on_save": true,
-    "file_exclude_patterns":
-    [
-        "*.cache",
-        ".DS_Store",
-        "*.pid",
-        "*.pyc",
-        ".Rapp.history"
-    ],
-    "fold_buttons": true,
-    "folder_exclude_patterns":
-    [
-        "*.cache",
-        ".git",
-        "__pycache__",
-        "env",
-        "env3"
-    ],
-    "font_face": "Inconsolata",
-    "font_options":
-    [
-        "subpixel_antialias",
-        "no_bold"
-    ],
-    "font_size": 14.0,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "ignored_packages":
-    [
-        "Python",
-        "Vintage"
-    ],
-    "mdpopups.sublime_user_lang_map":
-    {
-    },
-    "mdpopups.use_sublime_highlighter": true,
-    "rulers":
-    [
-        80
-    ],
-    "show_encoding": true,
-    "show_line_endings": true,
-    "show_minimap": true,
-    "spell_check": true,
-    "spelling_selector": "-git-savvy",
-    "tab_size": 4,
-    "theme": "Soda Dark 3.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": false,
-    "wide_caret": true,
-    "word_wrap": true,
-    "wrap_width": 80
+	"added_words":
+	[
+		"tradeoffs",
+		"tradeoff",
+		"Borkenhagen"
+	],
+	"auto_complete": true,
+	"auto_find_in_selection": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"packrat/lib/**",
+		"packrat/lib-ext/**",
+		"packrat/lib-R/**",
+		"packrat/src/**"
+	],
+	"caret_style": "solid",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/Colors/Wombat Custom.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.cache",
+		".DS_Store",
+		"*.pid",
+		"*.pyc",
+		".Rapp.history"
+	],
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		"*.cache",
+		".git",
+		"__pycache__",
+		"env",
+		"env3"
+	],
+	"font_face": "Inconsolata",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_bold"
+	],
+	"font_size": 14.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Python",
+		"Vintage",
+		"Markdown"
+	],
+	"mdpopups.sublime_user_lang_map":
+	{
+	},
+	"mdpopups.use_sublime_highlighter": true,
+	"rulers":
+	[
+		80
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"show_minimap": true,
+	"spell_check": true,
+	"spelling_selector": "-git-savvy",
+	"tab_size": 4,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"wide_caret": true,
+	"word_wrap": true,
+	"wrap_width": 80
 }

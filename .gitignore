@@ -6,5 +6,9 @@
 /Package Control.user-ca-bundle
 /Package Control.merged-ca-bundle
 
+# Machine-specific SSL bundle
+oscrypto-ca-bundle.crt
+
 # Sublime Linter-generated theme files
 /SublimeLinter/
+
