@@ -6,7 +6,8 @@
     "spell_check": true,
     "extensions":
     [
-        "Rmd"
+        "Rmd",
+        "rmd"
     ],
     "rulers":
     [
