@@ -60,10 +60,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Python",
-		"Vintage",
-		"Markdown"
+		"Vintage"
 	],
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
 	"mdpopups.sublime_user_lang_map":
 	{
 	},
@@ -80,7 +86,7 @@
 	"tab_size": 4,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false,
+	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
 	"word_wrap": true,
 	"wrap_width": 80
