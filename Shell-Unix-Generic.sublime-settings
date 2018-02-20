@@ -1,6 +1,8 @@
 {
+    // Sets the colors used within the text area
     "extensions":
     [
+        "sh",
         ".zshrc",
         ".zpreztorc",
         "zpreztorc"

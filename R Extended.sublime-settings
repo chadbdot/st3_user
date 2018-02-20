@@ -5,15 +5,14 @@
     [
         "R",
         "r",
-        "Rprofile",
-        ".Rprofile"
+        "Rprofile"
     ],
     "rulers":
     [
         80
     ],
     "spell_check" : true,
-    "spelling_selector" : "comment.line.number-sign, string.quoted.double, string.quoted.single",
+    "spelling_selector" : "comment, string.quoted.double, string.quoted.single",
     "tab_size": 2,
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,

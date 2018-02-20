@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the Ruby syntax
+{
+    "spell_check" : true,
+    "spelling_selector" : "comment",
+}
