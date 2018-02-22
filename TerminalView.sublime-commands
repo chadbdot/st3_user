@@ -23,7 +23,12 @@
     {
         "caption": "Terminal View: Open IPython Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "IPython Console", "cmd": "/usr/local/bin/bash -l -c ipython3"},
+        "args"   : {"title": "IPython Console", "cmd": "/usr/local/bin/bash -l -c ipython"},
+    },
+    {
+        "caption": "Terminal View: Open Pipenv Shell",
+        "command": "terminal_view_open",
+        "args"   : {"title": "Terminal (bash)", "cmd": "/usr/local/bin/bash -l -c 'pipenv shell'"},
     },
 // R consoles
     {
@@ -39,11 +44,6 @@
     {
         "caption": "Terminal View: Open R Terminal - Vanilla",
         "command": "terminal_view_open",
-        "args"   : {"title": "R Console (Vanilla)", "cmd": "/usr/local/bin/bash -l -c R --vanilla "},
-    },
-    {
-        "caption": "Terminal View: Open Pipenv Shell",
-        "command": "terminal_view_open",
-        "args"   : {"title": "Terminal (bash)", "cmd": "/usr/local/bin/bash -l -c pipenv shell"},
-    },
+        "args"   : {"title": "R Console (Vanilla)", "cmd": "/usr/local/bin/bash -l -c 'R --vanilla'"},
+    }
 ]

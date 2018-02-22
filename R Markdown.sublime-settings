@@ -1,6 +1,4 @@
 {
-    "auto_wrap": true,
-    "auto_wrap_width" : 80,
     "draw_white_space": "all",
     "ensure_newline_at_eof_on_save": true,
     "spell_check": true,

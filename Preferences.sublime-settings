@@ -64,7 +64,6 @@
 		"Python",
 		"Vintage"
 	],
-	// disable ST3 bracket matching to avoid conflict with BH package
 	"match_brackets": false,
 	"match_brackets_angle": false,
 	"match_brackets_braces": false,
