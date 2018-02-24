@@ -5,7 +5,8 @@
     [
         "R",
         "r",
-        "Rprofile"
+        "Rprofile",
+        ".Rprofile"
     ],
     "rulers":
     [

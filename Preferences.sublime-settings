@@ -5,6 +5,10 @@
 		"tradeoff",
 		"Borkenhagen"
 	],
+	"additional_path_items":
+	[
+		"~/Library/Python/3.6/bin"
+	],
 	"auto_complete": true,
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
@@ -64,7 +68,6 @@
 		"Python",
 		"Vintage"
 	],
-	// disable ST3 bracket matching to avoid conflict with BH package
 	"match_brackets": false,
 	"match_brackets_angle": false,
 	"match_brackets_braces": false,

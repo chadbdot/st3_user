@@ -7,6 +7,7 @@
 	[
 		"AutoWrap",
 		"BracketHighlighter",
+		"Fix Mac Path",
 		"GitGutter",
 		"GitSavvy",
 		"MagicPython",
@@ -19,6 +20,7 @@
 		"ScopeHunter",
 		"SendCode",
 		"SideBarEnhancements",
+		"Stan",
 		"SublimeLinter",
 		"SublimeLinter-contrib-lintr",
 		"SublimeLinter-pycodestyle",
