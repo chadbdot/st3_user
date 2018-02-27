@@ -13,18 +13,31 @@
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
 	[
+		"*.dds",
+		"*.dbf",
+		"*.doc",
+		"*.docx",
+		"*.eot",
+		"*.gif",
+		"*.gz",
+		"*.ico",
+		"*.jar",
 		"*.jpg",
 		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
 		"*.pdf",
+		"*.png",
+		"*.pyc",
+		"*.RData",
+		"*.Rdata",
+		"*.rdb",
+		"*.rds",
+		"*.sbn",
+		"*.shp",
+		"*.shx",
 		"*.swf",
-		"*.jar",
+		"*.tar",
+		"*.tga",
+		"*.ttf",
 		"*.zip",
 		"packrat/lib/**",
 		"packrat/lib-ext/**",
@@ -40,13 +53,14 @@
 	[
 		"*.cache",
 		".DS_Store",
-		"*.pid",
-		"*.pyc",
+		// "*.pid",
 		".Rapp.history"
 	],
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
+		"*_cache",
+		"*_files",
 		"*.cache",
 		".git",
 		"__pycache__",
@@ -62,6 +76,11 @@
 	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"index_files": true,
+	"index_exclude_patterns": [
+		"*.csv",
+		"*.shp.xml"
+	],
 	"ignored_packages":
 	[
 		"Markdown",
