@@ -2,54 +2,93 @@
     {
         "caption": "Terminal View: Open Bash (Homebrew) Terminal",
         "command": "terminal_view_open",
-        "args"   : {"title": "Terminal (bash)", "cmd": "/usr/local/bin/bash -l", "cwd": "${folder}"},
+        "args"   : {
+            "title": "Terminal (bash)",
+            "cmd": "/usr/local/bin/bash -l",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open Zsh Terminal",
         "command": "terminal_view_open",
-        "args"   : {"title": "Terminal (Zsh)", "cmd": "/usr/local/bin/zsh -l", "cwd": "${folder}"},
+        "args"   : {
+            "title": "Terminal (Zsh)",
+            "cmd": "/usr/local/bin/zsh -l",
+            "cwd": "${folder}"
+        }
     },
 // Python consoles
     {
         "caption": "Terminal View: Open Python 3 Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "Python 3 Console", "cmd": "/usr/local/bin/bash -l -c python3", "cwd": "${folder}"},
+        "args"   : {
+            "title": "Python 3 Console",
+            "cmd": "/usr/local/bin/bash -l -c python3",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open Python 2 Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "Python 2 Console", "cmd": "/usr/local/bin/bash -l -c python2", "cwd": "${folder}"},
+        "args"   : {
+            "title": "Python 2 Console",
+            "cmd": "/usr/local/bin/bash -l -c python2",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open IPython Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "IPython Console", "cmd": "/usr/local/bin/bash -l -c ipython", "cwd": "${folder}"},
+        "args"   : {
+            "title": "IPython Console",
+            "cmd": "/usr/local/bin/bash -l -c ipython",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open Pipenv Shell",
         "command": "terminal_view_open",
-        "args"   : {"title": "Terminal (bash)", "cmd": "/usr/local/bin/bash -l -c 'pipenv shell'", "cwd": "${folder}"},
+        "args"   : {
+            "title": "Terminal (bash)",
+            "cmd": "/usr/local/bin/bash -l -c 'pipenv shell'",
+            "cwd": "${folder}"
+        }
     },
 // R consoles
     {
         "caption": "Terminal View: Open R (Rice) Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "Rice R Console", "cmd": "/usr/local/bin/bash -l -c rice", "cwd": "${folder}",
-    },
+        "args"   : {
+            "title": "Rice R Console",
+            "cmd": "/usr/local/bin/bash -l -c rice",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open R (Rtichoke) Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "Rtichoke R Console", "cmd": "/usr/local/bin/bash -l -c rtichoke", "cwd": "${folder}"},
+        "args"   : {
+            "title": "R Console (Rtichoke)",
+            "cmd": "/usr/local/bin/bash -l -c rtichoke",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open R Console",
         "command": "terminal_view_open",
-        "args"   : {"title": "R Console", "cmd": "/usr/local/bin/bash -l -c R", "cwd": "${folder}"},
+        "args"   : {
+            "title": "R Console",
+            "cmd": "/usr/local/bin/bash -l -c R",
+            "cwd": "${folder}"
+        }
     },
     {
         "caption": "Terminal View: Open R Terminal - Vanilla",
         "command": "terminal_view_open",
-        "args"   : {"title": "R Console (Vanilla)", "cmd": "/usr/local/bin/bash -l -c 'R --vanilla'", "cwd": "${folder}"},
+        "args"   : {
+            "title": "R Console (Vanilla)",
+            "cmd": "/usr/local/bin/bash -l -c 'R --vanilla'",
+            "cwd": "${folder}"
+        }
     }
 ]
