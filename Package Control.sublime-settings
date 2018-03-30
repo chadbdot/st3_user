@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AlignTab",
 		"AutoWrap",
 		"BracketHighlighter",
 		"Fix Mac Path",

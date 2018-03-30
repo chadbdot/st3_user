@@ -15,7 +15,7 @@
     "spelling_selector" : "-(source), comment, string.quoted.double, string.quoted.single",
     "tab_size": 2,
     "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true,
+    "trim_trailing_white_space_on_save": false,
     "word_wrap": "auto", // prevents horizontal scrolling.
     "wrap_width": 80
 }
