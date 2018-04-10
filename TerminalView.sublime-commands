@@ -6,7 +6,7 @@
             "title": "Terminal (bash)",
             "cmd": "/usr/local/bin/bash -l",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
     {
@@ -16,7 +16,7 @@
             "title": "Terminal (Zsh)",
             "cmd": "/usr/local/bin/zsh -l",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
 // Python consoles
@@ -27,7 +27,7 @@
             "title": "Python 3 Console",
             "cmd": "/bin/bash -l -c python3",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
     {
@@ -37,7 +37,7 @@
             "title": "Python 2 Console",
             "cmd": "/bin/bash -l -c python2",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
     {
@@ -47,7 +47,7 @@
             "title": "IPython Console",
             "cmd": "/bin/bash -l -c ipython",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
     {
@@ -57,7 +57,7 @@
             "title": "Terminal (bash)",
             "cmd": "/bin/bash -l -c 'pipenv shell'",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
 // R consoles
@@ -68,7 +68,7 @@
             "title": "R Console (Rtichoke)",
             "cmd": "/bin/bash -l -c rtichoke",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
     {
@@ -78,7 +78,7 @@
             "title": "R Console",
             "cmd": "/bin/bash -l -c R",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     },
     {
@@ -88,7 +88,7 @@
             "title": "R Console (Vanilla)",
             "cmd": "/bin/bash -l -c 'R --vanilla'",
             "cwd": "${folder}",
-            "syntax": "TerminalView.tmLanguage"
+            "syntax": "TerminalView.sublime-syntax"
         }
     }
 ]
