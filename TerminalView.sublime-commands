@@ -5,7 +5,8 @@
         "args"   : {
             "title": "Terminal (bash)",
             "cmd": "/usr/local/bin/bash -l",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
     {
@@ -14,7 +15,8 @@
         "args"   : {
             "title": "Terminal (Zsh)",
             "cmd": "/usr/local/bin/zsh -l",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
 // Python consoles
@@ -24,7 +26,8 @@
         "args"   : {
             "title": "Python 3 Console",
             "cmd": "/bin/bash -l -c python3",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
     {
@@ -33,7 +36,8 @@
         "args"   : {
             "title": "Python 2 Console",
             "cmd": "/bin/bash -l -c python2",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
     {
@@ -42,7 +46,8 @@
         "args"   : {
             "title": "IPython Console",
             "cmd": "/bin/bash -l -c ipython",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
     {
@@ -51,7 +56,8 @@
         "args"   : {
             "title": "Terminal (bash)",
             "cmd": "/bin/bash -l -c 'pipenv shell'",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
 // R consoles
@@ -61,7 +67,8 @@
         "args"   : {
             "title": "R Console (Rtichoke)",
             "cmd": "/bin/bash -l -c rtichoke",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
     {
@@ -70,7 +77,8 @@
         "args"   : {
             "title": "R Console",
             "cmd": "/bin/bash -l -c R",
-            "cwd": "${folder}"
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     },
     {
@@ -78,8 +86,9 @@
         "command": "terminal_view_open",
         "args"   : {
             "title": "R Console (Vanilla)",
-            "cmd": "/usr/local/bin/zsh -l -c 'R --vanilla'",
-            "cwd": "${folder}"
+            "cmd": "/bin/bash -l -c 'R --vanilla'",
+            "cwd": "${folder}",
+            "syntax": "TerminalView.tmLanguage"
         }
     }
 ]
