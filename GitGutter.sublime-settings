@@ -1,0 +1,6 @@
+// GitGutter Settings - User
+{
+    // homebrew version of git
+    "git_binary": "/usr/local/bin/git"
+
+}
