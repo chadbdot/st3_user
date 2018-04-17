@@ -11,3 +11,6 @@ oscrypto-ca-bundle.crt
 
 # Sublime Linter-generated theme files
 /SublimeLinter/
+
+# Gitsavvy temp files
+/GitSavvy/

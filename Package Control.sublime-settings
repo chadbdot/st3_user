@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AlignTab",
 		"AutoWrap",
 		"BracketHighlighter",
 		"Fix Mac Path",
@@ -25,7 +24,6 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-lintr",
 		"SublimeLinter-pycodestyle",
-		"SublimeLinter-pyflakes",
 		"TerminalView",
 		"Theme - Soda",
 		"WordCount",
