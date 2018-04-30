@@ -1,0 +1,31 @@
+// These settings override both User and Default settings for the TeX syntax
+{
+    "color_scheme": "Packages/User/Colors/Zurich.tmTheme",
+    // The number of spaces a tab is considered equal to
+    "tab_size": 2,
+    "font_size": 14.0,
+    "font_face": "Roboto Mono",
+    "font_options":
+    [
+        "subpixel_antialias",
+        "no_bold"
+    ],
+    "extensions":
+    [
+        "tex",
+        "cls",
+        "bst",
+        "bbx",
+        "sty"
+    ],
+    "trim_trailing_white_space_on_save": false,
+    "line_padding_bottom": 3,
+    "line_padding_top": 3,
+    "rulers":
+    [
+      80
+    ],
+    "spell_check" : true,
+    "word_wrap": true,
+    "wrap_width": 80
+}
