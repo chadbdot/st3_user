@@ -1,4 +1,5 @@
 [
+// Shells
     {
         "caption": "Terminal View: Open Bash (Homebrew) Terminal",
         "command": "terminal_view_open",
@@ -50,16 +51,17 @@
             "syntax": "TerminalView.sublime-syntax"
         }
     },
-    {
-        "caption": "Terminal View: Open Pipenv Shell",
-        "command": "terminal_view_open",
-        "args"   : {
-            "title": "Terminal (bash)",
-            "cmd": "/bin/bash -l -c 'pipenv shell'",
-            "cwd": "${folder}",
-            "syntax": "TerminalView.sublime-syntax"
-        }
-    },
+    // Pipenv doesn't launch directly with TerminalView. Open shell first.
+    // {
+    //     "caption": "Terminal View: Open Pipenv Shell",
+    //     "command": "terminal_view_open",
+    //     "args"   : {
+    //         "title": "Terminal (bash)",
+    //         "cmd": "/bin/local/bin/zsh -l -c 'pipenv shell'",
+    //         "cwd": "${folder}",
+    //         "syntax": "TerminalView.sublime-syntax"
+    //     }
+    // },
 // R consoles
     {
         "caption": "Terminal View: Open R (Rtichoke) Console",

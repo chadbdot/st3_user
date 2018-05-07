@@ -65,7 +65,7 @@
 
 	// set to true to use BibLaTeX instead of BibTex for bibliography completions
 	// can also be set on a per-project basis
-	"use_biblatex": false,
+	"use_biblatex": true,
 
 	// the mapping from the locales to the dictionaries for the
 	// `%!TEX spellcheck` directive, where the locales must be all lowercase
@@ -571,8 +571,8 @@
 	// Valid wildcards: keyword, title, author, year, author_short, title_short, journal
 
 	// Uncomment or modify at will
-	"cite_panel_format": ["{author_short} {year} - {title_short}","{journal}"],
-	//"cite_panel_format": ["({keyword}) {author_short} - {year}","{title} - {journal}"],
+	// "cite_panel_format": ["{author_short} {year} - {title_short}","{journal}"],
+	"cite_panel_format": ["({keyword}) {author_short} - {year}","{title} - {journal}"],
 	//"cite_panel_format": ["{author_short} {year} ({keyword})"],
 
 	// Similarly, the formatting for the autocomplete panel:
