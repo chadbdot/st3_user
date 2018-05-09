@@ -1,0 +1,12 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "pycodestyle": {
+            "disable": false,
+            "args": [
+                "--ignore", "E131, E251, W291, W293, W391, W504"
+            ]
+        }
+    }
+
+}

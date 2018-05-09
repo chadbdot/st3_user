@@ -1,6 +1,6 @@
 // These settings override both User and Default settings for the TeX syntax
 {
-    "color_scheme": "Packages/User/Colors/Zurich.tmTheme",
+    "color_scheme": "Packages/User/ColorSchemes/Zurich.tmTheme",
     // The number of spaces a tab is considered equal to
     "tab_size": 2,
     "font_size": 14.0,
