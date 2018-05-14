@@ -1,10 +1,10 @@
 {
 	"added_words":
 	[
-		"tradeoffs",
-		"tradeoff",
 		"Borkenhagen",
-		"tibble"
+		"tibble",
+		"tradeoff",
+		"tradeoffs"
 	],
 	"additional_path_items":
 	[
@@ -94,6 +94,7 @@
 	"index_exclude_patterns":
 	[
 		"*.csv",
+		"*.html",
 		"*.shp.xml"
 	],
 	"index_files": true,

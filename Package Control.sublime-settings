@@ -5,9 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AutoWrap",
 		"BracketHighlighter",
-		"Fix Mac Path",
 		"GitGutter",
 		"GitSavvy",
 		"LaTeXTools",

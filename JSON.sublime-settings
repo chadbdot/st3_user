@@ -3,5 +3,7 @@
     "translate_tabs_to_spaces": true,
     "rulers":
     [
-    ]
+    ],
+    "spell_check" : true,
+    "spelling_selector" : "-(source), comment",
 }

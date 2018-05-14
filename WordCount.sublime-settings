@@ -16,7 +16,11 @@
     "page_count_mode_count_words": true,
 
     "whitelist_syntaxes": [],
-    "blacklist_syntaxes": ["CSS", "SQL", "JavaScript", "Python", "MagicPython", "PHP", "JSON", "R", "R Extended", "Ruby", "Shell-Unix-Generic", "status", "stan", "LaTeX", "TerminalView"],
+    "blacklist_syntaxes": [
+        "CSS", "SQL", "JavaScript", "Python", "MagicPython", "PHP", "JSON",
+        "R", "R Extended", "Ruby", "Shell-Unix-Generic", "status", "stan",
+        "LaTeX", "TerminalView"
+    ],
     /* please use lowercase for the syntax names in the following section: */
     "strip": {
         "php": [

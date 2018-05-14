@@ -5,5 +5,5 @@
     // Percentage of page that is scrolled (1.0 corresponds to an entire page
     // scroll).
     "terminal_view_scroll_ratio": 0.6,
-
+    "spell_check": false
 }

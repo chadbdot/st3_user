@@ -53,7 +53,7 @@
 				<key>foreground</key>
 				<string>#f8f8f2</string>
 				<key>invisibles</key>
-				<string>#666666</string>
+				<string>#333333</string>
 				<key>lineHighlight</key>
 				<string>#FFFFFF10</string>
 				<key>selection</key>
