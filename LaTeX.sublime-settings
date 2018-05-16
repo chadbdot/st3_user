@@ -12,11 +12,12 @@
     ],
     "extensions":
     [
-        "tex",
-        "cls",
-        "bst",
         "bbx",
-        "sty"
+        "bst",
+        "cbx",
+        "cls",
+        "sty",
+        "tex"
     ],
     "trim_trailing_white_space_on_save": false,
     "line_padding_bottom": 3,

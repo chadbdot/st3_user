@@ -4,9 +4,8 @@
         "pycodestyle": {
             "disable": false,
             "args": [
-                "--ignore", "E131, E251, W291, W293, W391, W504"
+                "--ignore", "E128, E131, E251, E266, E302, W291, W293, W391, W504"
             ]
         }
     }
-
 }
