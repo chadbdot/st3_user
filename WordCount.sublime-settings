@@ -29,7 +29,7 @@
         "html": [
             "<[^>]*>"
         ],
-        /* don't count YAML headers or code blocks in markdown */
+        /* don't count YAML headers or code blocks in markdown flavors */
         "markdown": [
             "(?s)---(.*?)---",
             "(?s)```(.*?)```"
