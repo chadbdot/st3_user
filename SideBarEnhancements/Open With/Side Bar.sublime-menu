@@ -23,13 +23,13 @@
 
             //application 2
             {
-                "caption": "PDF Expert",
+                "caption": "Skim",
                 "id": "side-bar-files-open-with-pdf_expert",
 
                 "command": "side_bar_files_open_with",
                 "args": {
                                     "paths": [],
-                                    "application": "PDF Expert.app", // OSX
+                                    "application": "Skim.app", // OSX
                                     "extensions":"pdf", //open all even folders
                                     "args":[]
                                 },
