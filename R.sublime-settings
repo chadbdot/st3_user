@@ -1,0 +1,22 @@
+{
+    "draw_white_space": "all",
+    "ensure_newline_at_eof_on_save": true,
+    "extensions":
+    [
+        "R",
+        "r",
+        "Rprofile",
+        ".Rprofile"
+    ],
+    "rulers":
+    [
+        80
+    ],
+    "spell_check" : true,
+    "spelling_selector" : "comment, string.quoted.double, string.quoted.single",
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": true,
+    "wrap_width": 80
+}
