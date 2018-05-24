@@ -6,6 +6,13 @@
             "args": [
                 "--ignore", "E128, E131, E251, E266, E302, W291, W293, W391, W504"
             ]
-        }
+        },
+        "lintr": {
+                "@disable": false,
+                "args": [],
+                "cache": "TRUE",
+                "excludes": [],
+                "linters": "with_defaults(camel_case_linter = NULL, snake_case_linter = NULL, line_length_linter(80), spaces_left_parentheses_linter = NULL, trailing_blank_lines_linter = NULL,trailing_whitespace_linter = NULL, commented_code_linter = NULL, undesirable_function_linter = NULL, undesirable_operator_linter = NULL, object_usage_linter = NULL)"
+            },
     }
 }
