@@ -90,6 +90,7 @@
 		"LSP",
 		"Markdown",
 		"Python",
+		"SublimeLinter-contrib-lintr",
 		"Vintage"
 	],
 	"index_exclude_patterns":
