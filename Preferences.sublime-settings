@@ -91,6 +91,7 @@
 		"Markdown",
 		"Python",
 		"SublimeLinter-contrib-lintr",
+		"TerminalView",
 		"Vintage"
 	],
 	"index_exclude_patterns":

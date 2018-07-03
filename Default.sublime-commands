@@ -1,0 +1,107 @@
+[
+// Terminus
+    // Shells
+    {
+        "caption": "Terminus: Open Zsh",
+        "command": "terminus_open",
+        "args"   : {
+            "config_name": "Zsh",
+            "title": "Zsh"
+        }
+    },
+    {
+        "caption": "Terminus: Open Zsh (Panel)",
+        "command": "terminus_open",
+        "args"   : {
+            "config_name": "Zsh",
+            "title": "Zsh",
+            "panel_name": "Zsh"
+        }
+    },
+    // Python Consoles
+    {
+        "caption": "Terminus: Open iPython",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["ipython"],
+            "cwd": "${file_path:${folder}}",
+            "title": "iPython"
+        }
+    },
+    {
+        "caption": "Terminus: Open iPython (Panel)",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["ipython"],
+            "cwd": "${file_path:${folder}}",
+            "title": "iPython",
+            "panel_name": "iPython"
+        }
+    },
+    {
+        "caption": "Terminus: Open Python2",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["python2"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Python 2 Console"
+        }
+    },
+    {
+        "caption": "Terminus: Open Python3",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["python3"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Python 3 Console",
+        }
+    },
+    {
+        "caption": "Terminus: Open Pipenv Shell",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["pipenv", "shell"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Pipenv Shell",
+        }
+    },
+    // R Consoles
+    {
+        "caption": "Terminus: Open Rtichoke",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["rtichoke"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Rtichoke",
+            // "syntax": "TerminalView.sublime-syntax"
+        }
+    },
+    {
+        "caption": "Terminus: Open Rtichoke (Panel)",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["rtichoke"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Rtichoke",
+            "panel_name": "Rtichoke"
+        }
+    },
+    {
+        "caption": "Terminus: Open R Console",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["R"],
+            "cwd": "${file_path:${folder}}",
+            "title": "R Console"
+        }
+    },
+    {
+        "caption": "Terminus: Open Vanilla R Console",
+        "command": "terminus_open",
+        "args"   : {
+            "cmd": ["R", "--vanilla"],
+            "cwd": "${file_path:${folder}}",
+            "title": "R Console (Vanilla)"
+        }
+    },
+]

@@ -1,18 +1,18 @@
 {
-	"prog": "terminalview",
+	"prog": "terminus",
 	"python":
 	{
 		"bracketed_paste_mode": true,
-		"prog": "terminalview"
+		"prog": "terminus"
 	},
 	"r":
 	{
 		"bracketed_paste_mode": true,
-		"prog": "terminalview"
+		"prog": "terminus"
 	},
 	"rmd":
 	{
 		"bracketed_paste_mode": true,
-		"prog": "terminalview"
+		"prog": "terminus"
 	}
 }

@@ -26,8 +26,13 @@
 		"SublimeLinter-contrib-lintr",
 		"SublimeLinter-pycodestyle",
 		"TerminalView",
+		"Terminus",
 		"Theme - Soda",
 		"WordCount",
 		"Wrap Plus"
+	],
+	"repositories":
+	[
+		"https://github.com/randy3k/SendCode.git"
 	]
 }
