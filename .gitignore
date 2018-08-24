@@ -14,3 +14,7 @@ oscrypto-ca-bundle.crt
 
 # Gitsavvy temp files
 /GitSavvy/
+
+# Terminus-generated color scheme files
+/Terminus.sublime-color-scheme
+/Terminus/Terminus.sublime-color-scheme
