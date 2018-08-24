@@ -1,4 +1,9 @@
 {
+	"julia":
+	{
+		"bracketed_paste_mode": true,
+		"prog": "terminus"
+	},
 	"prog": "terminus",
 	"python":
 	{
