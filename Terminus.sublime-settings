@@ -19,7 +19,7 @@
             "platforms": ["linux", "osx"]
         },
     ],
-	"theme": "ir-black",
+    "theme": "wombat",
     // Note: for unix users, you will get better 256 color experience
     // if you also set "unix_term" to "xterm-256color"
     // 256 color is not working on Windows because of upstream winpty's issue
