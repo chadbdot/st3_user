@@ -75,7 +75,8 @@
 		".git",
 		"__pycache__",
 		"env",
-		"env3"
+		"env3",
+		".ipynb_checkpoints"
 	],
 	"font_face": "Inconsolata",
 	"font_options":
