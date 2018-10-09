@@ -90,7 +90,6 @@
 	[
 		"Markdown",
 		"Python",
-		"SublimeLinter-contrib-lintr",
 		"SublimeLinter-pycodestyle",
 		"Vintage"
 	],

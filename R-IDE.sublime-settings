@@ -1,0 +1,15 @@
+{
+    // path to R, for example
+    // (mac, linux): "/usr/local/bin/R"
+    // (windows):    "C:\\Program Files\\R\\R-x.y.z\\bin\\R.exe"
+    "r_binary": "/usr/local/bin/R",
+
+    // show R-IDE main menu
+    "r_ide_menu": true,
+
+    // use diagnostics from LSP
+    "diagnostics": true,
+
+    // additional paths to PATH variable
+    "additional_paths": []
+}
