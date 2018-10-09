@@ -11,11 +11,5 @@
     // Quick access to panel
     {
         "keys": ["alt+`"], "command": "toggle_terminus_panel"
-    },
-    // TerminalView Commands
-    { "keys": ["ctrl+alt+i"], "command": "terminal_view_open", "args": {"cmd": "/bin/bash -l -c ipython", "title": "Terminal (IPython)"}},
-    { "keys": ["ctrl+alt+p", "3"], "command": "terminal_view_open", "args": {"cmd": "/bin/bash -l -c python3", "title": "Terminal (Python3)"}},
-    { "keys": ["ctrl+alt+p", "2"], "command": "terminal_view_open", "args": {"cmd": "/bin/bash -l -c python2", "title": "Terminal (Python2)"}},
-    { "keys": ["ctrl+alt+r"], "command": "terminal_view_open", "args": {"cmd": "/bin/bash -l -c rice", "title": "Terminal (Rice)"}},
-    { "keys": ["ctrl+alt+t"], "command": "terminal_view_open"},
+    }
 ]
