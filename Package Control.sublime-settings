@@ -6,11 +6,15 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Anaconda",
+		"AutoFileName",
 		"AutoWrap",
 		"BracketHighlighter",
+		"Compare Side-By-Side",
 		"Dockerfile Syntax Highlighting",
 		"GitGutter",
 		"GitSavvy",
+		"Jedi - Python autocompletion",
 		"Julia",
 		"LaTeXTools",
 		"LSP",

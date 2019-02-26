@@ -11,6 +11,17 @@
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
+	"auto_complete_triggers":
+	[
+	  {
+	     "characters": "<",
+	     "selector": "text.html"
+	  },
+	  {
+	     "characters": "/",
+	     "selector": "string.regexp.quoted.single.python,string.quoted.single.python,string.quoted.double.html,string.quoted.single.html, source.css"
+	  }
+	],
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
 	[
